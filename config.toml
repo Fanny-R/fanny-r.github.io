@@ -1,13 +1,10 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://fanny-r.github.io/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
+googleAnalytics = ""
 
 
 
@@ -20,41 +17,29 @@ googleAnalytics = "UA-XXXXXXX-Y"
     textPrimaryColor = "#292929"
 
 
-
-
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Fanny Rottee"
+        tagline = "Software Engineer"
         avatar = "avatar.png"
-
-
-
-
-
 
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Lyon (France)"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "0033 6 31 75 92 20"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        text = "fanny.rottee@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.yourwebsite.com"
-
-
-
-
-
+        text = "https://fanny-r.github.io/"
 
 
     [params.skills]
@@ -89,12 +74,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Good time management"
 
 
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -108,14 +87,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "2007 - 2010"
 
 
-
-
-
-
-
-
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -127,21 +100,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         date = "2017"
 
 
-
-
-
-
-
-
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "French"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
+        name = "English"
+        level = "Fluent"
 
 
 
