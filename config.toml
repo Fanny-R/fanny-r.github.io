@@ -78,14 +78,17 @@ googleAnalytics = ""
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "BSc in Computer Science"
+        university = "Université Lyon 1"
+        dates = "2015 - 2017"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
+        degree = "BSc in Library and Information Science - Digital Information Management"
+        university = "Université Grenoble Alpes"
+        dates = "2010-2012"
+        [[params.education.list]]
+        degree = "BSc in Economics and Management"
+        university = "Université Grenoble Alpes - Universität Leipzig (Germany)"
         dates = "2007 - 2010"
-
 
     [params.awards]
         enable = false
