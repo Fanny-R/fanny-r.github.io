@@ -124,30 +124,18 @@ googleAnalytics = ""
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Hiking"
         [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
+        name = "Reading"
         [[params.interests.list]]
         name = "Travelling"
-
-
-
-
-
-
+        [[params.interests.list]]
+        name = "Eating"
 
 
     [params.summary]
         enable = true
         text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
-
-
-
-
-
-
 
 
     [params.experience]
@@ -200,15 +188,6 @@ googleAnalytics = ""
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
 
 
-
-
-
-
-
-
-
-
-
     [params.projects]
         enable = true
 
@@ -228,37 +207,16 @@ googleAnalytics = ""
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
 
-
-
-
-
-
-
-
-
     [params.information]
         enable = true
 
         [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
         title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
+        details = "Hiking, Reading, Travelling, Eating"
 
 
     [params.social]
-        enable = true
+        enable = false
 
         [[params.social.list]]
         icon = "fab fa-github-square"
@@ -272,4 +230,3 @@ googleAnalytics = ""
         icon = "fab fa-twitter-square"
         url = "//twitter.com/username"
         title = "@username"
-
