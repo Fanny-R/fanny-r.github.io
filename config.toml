@@ -112,12 +112,12 @@ googleAnalytics = ""
         [[params.languages.list]]
         name = "English"
         level = "Fluent"
-
-
-
-
-
-
+        [[params.languages.list]]
+        name = "German"
+        level = "Intermediate"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Intermediate"
 
 
     [params.interests]
