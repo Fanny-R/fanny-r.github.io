@@ -13,15 +13,15 @@ googleAnalytics = ""
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
 
-    primaryColor = "#54B689"
-    textPrimaryColor = "#292929"
+    primaryColor = "#489da0"
+    textPrimaryColor = "#2D1828"
 
 
     [params.profile]
         enable = true
         name = "Fanny Rottee"
         tagline = "Software Engineer"
-        avatar = "avatar.png"
+        # avatar = "avatar.png"
 
 
     [params.contact]
@@ -29,9 +29,9 @@ googleAnalytics = ""
         location = "Lyon (France)"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "0033 6 31 75 92 20"
+        # icon = "fas fa-phone-square"
+        # url = "tel:#"
+        # text = "+33 6 31 75 92 20"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
