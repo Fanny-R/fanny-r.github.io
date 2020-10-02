@@ -2,7 +2,7 @@
 
 baseURL = "https://fanny-r.github.io/"
 languageCode = "en"
-title = ""
+title = "Fanny Rottee - Software Engineer"
 theme = "hugo-devresume-theme"
 googleAnalytics = ""
 
@@ -10,7 +10,7 @@ googleAnalytics = ""
 
 [params]
     author = "Fanny Rottee"
-    description = "TODO"
+    description = "Software Engineer"
 
 
     primaryColor = "#489da0"
