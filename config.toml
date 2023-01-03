@@ -3,14 +3,14 @@
 baseURL = "https://fanny-r.github.io/"
 languageCode = "en"
 title = "Fanny Rottee - Software Engineer"
-theme = "hugo-devresume-theme"
+theme = "hugo-devresume-theme-custom"
 googleAnalytics = ""
 
 
 
 [params]
     author = "Fanny Rottee"
-    description = "As a developer I want to produce a code tested, maintenable and well organized. I have learned a lot since I started developing and I want to find a team where I would be able to continue to progress."
+    description = "As an engineer I focus on problem solving, from producing quality, maintainable and well organized code to driving business initiatives. I have learned a lot since I started developing and I want to find a team in which I would be able to share my knowledge while continuing to progress."
 
 
     primaryColor = "#489DA0"
@@ -64,6 +64,8 @@ googleAnalytics = ""
         details = "Effective communication"
         [[params.skills.list.items]]
         details = "Team player"
+        [[params.skills.list.items]]
+        details = "Agile Methodologies"
 
 
     [params.education]
@@ -115,7 +117,7 @@ googleAnalytics = ""
 
     [params.summary]
         enable = true
-        text = "As a developer I want to produce a code tested, maintenable and well organized. I have learned a lot since I started developing and I want to find a team where I would be able to share my knowledge while continuing to progress."
+        text = "As an engineer I focus on problem solving, from producing quality, maintainable and well organized code to driving business initiatives. I have learned a lot since I started developing and I want to find a team in which I would be able to share my knowledge while continuing to progress."
 
 
     [params.experience]
@@ -125,13 +127,17 @@ googleAnalytics = ""
         title = "Software Engineer"
         dates = "2016 - Present"
         company = "Vivlio"
-        details = "My training and previous experiences are helping me to grasp the complexity of the work as a software engineer in Vivlio, a french start-up that aims to be a European alternative in the digital book industry. I am working in a small agile team where I am involved in the whole development life cycle, from design to maintenance, including of course development, but also testing, deployment and monitoring. We are doing systematic code reviews and pair programming on a regular basis and I occasionally supervised and mentored newcomers. My missions involve working in conjunction with after-sales service, editorial and marketing teams to best meet the needs of our clients and customers. I also had the opportunity to take more responsability by being the technical referent of one of our project."
+        details = "My training and previous experiences are helping me to grasp the complexity of the work as a software engineer in Vivlio, a french start-up that aims to be a European alternative in the digital book industry. I am working in a small **agile team** where I am involved in the whole development life cycle, **from design to maintenance**, including of course development, but also testing, deployment and monitoring. We are doing systematic code reviews and pair programming on a regular basis and I **supervised and mentored newcomers**. My missions involve working in conjunction with after-sales service, editorial and marketing teams to best meet the needs of our clients and customers. I also had the opportunity to take more responsibility by being the **technical referent** of one of our project."
+        [[params.experience.list.items]]
+        details = "PHP, Ruby, Symfony, Architecture, Automated Testing"
+        [[params.experience.list.items]]
+        details = "MySQL, Elasticsearch, RabbitMq, Docker"
 
         [[params.experience.list]]
         title = "Software Engineer (3 months Internship)"
         dates = "2016"
         company = "Aberdeen's Robert Gordon University (Scotland)"
-        details = "As an intern my mission was to develop (from scratch) a prototype Android and Android wear app as part of a project that intended to develop a support system for people living with low back pain. The app was collecting data from the sensors present on a smartwatch, sending it on a mobile phone where the data was analysed in order to predict the activity done by the user, and then the result was displayed. The most important part was to implement the activity recognition system developped by a research  fellow. I worked alone and independently, however, as I was creating a prototype destined to other people, I made sure that to have a clean and well documented code."
+        details = "As an intern my mission was to develop (from scratch) a prototype Android and Android wear app as part of a project that intended to develop a support system for people living with low back pain. The application collected data from sensors present on a smartwatch, sending it on a mobile phone where the data was analysed in order to predict the activity done by the user, and then the result was displayed. The most important part was to implement the activity recognition system developed by a research  fellow. I worked alone and independently, however, as I was creating a prototype for other people to use, I made sure to have a clean and well documented code."
         [[params.experience.list.items]]
         details = "Java Android, for mobile phone and smartwatch"
         [[params.experience.list.items]]
@@ -141,13 +147,13 @@ googleAnalytics = ""
         title = "Volunteering in farms in the UK"
         dates = "2014"
         company = "WWOOF"
-        details = "I traveled during 6 months in the UK helping with daily tasks in farms or gardens, and living alongside my hosts. I did a lot of gardening (so much weeding), but I also was lucky enough to help in a farm during lambing time. I learned to work under pressure, sometimes alone, and to take quick decisions. More generally this time out of my comfort zone has allowed me to discover a new culture and new ways of thinking."
+        details = "I traveled during 6 months in the UK helping with daily tasks in farms or gardens, and living alongside my hosts. I did a lot of gardening, but I also was lucky enough to help in a farm during lambing time. I learned to work under pressure, sometimes alone, and to take quick decisions. More generally this time out of my comfort zone has allowed me to discover a new culture and new ways of thinking."
 
         [[params.experience.list]]
         title = "Various short-term jobs"
         dates = "2012 - 2015"
-        company = "Decitre, Lizeo..."
-        details = "I used to work as a librarian and a data-entry operator. These jobs taught me to work rigorously, within deadlines and according to instructions. However, I lacked carreer prospects, and I wanted to have the opportunity to be a driving force and not just a executor. I was eager to learn more and to do a job I would be able to progress in."
+        company = "Decitre, Lizeo,..."
+        details = "I used to work as a librarian and a data-entry operator. These jobs taught me to work rigorously, within deadlines and according to instructions. However, I lacked career prospects, and I wanted to have the opportunity to be a driving force and not just an executor. I was eager to learn more and to find a job in which I would be able to evolve."
 
 
     [params.projects]
