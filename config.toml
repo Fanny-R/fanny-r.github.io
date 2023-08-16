@@ -26,7 +26,7 @@ googleAnalytics = ""
 
     [params.contact]
         enable = true
-        location = "Stockholm (Sweden)"
+        location = "Lyon (France)"
 
         [[params.contact.list]]
         # icon = "fas fa-phone-square"
@@ -136,7 +136,7 @@ googleAnalytics = ""
         company = "Voi Technology"
         location = "Stockholm (Sweden)"
         link = "https://www.voi.com/"
-        details = "Voi is a multimodal micromobility provider operating across Europe. As part of the warehouse team, I am in charge of maintaining the backend of the mobile application used by mechanics to handle the lifecycle of the vehicles being repaired. To achieve this goal, I maintain a dozen of **Golang microservices**, following the **high quality code standards** we have at Voi. This includes unit testing, api-testing and continuous delivery. I am also involved in all the architectural discussions and decisions around the application. For example I **successfully led the design and the implementation** of the new vehicle history section. I also took the opportunity to contribute from time to time to the Android application itself."
+        details = "Voi is a multimodal micromobility provider operating across Europe. As part of the fleet management team, I am in charge of maintaining the backend of the mobile applications used by fleet specialists to handle the lifecycle of the vehicles in need of maintenance. To achieve this goal, I maintain two dozen of **Golang microservices**, following the **high quality code standards** we have at Voi. This includes unit testing, api-testing and continuous delivery. I am also involved in all the architectural discussions and decisions around the application. For example I **successfully led the design and the implementation** of the new vehicle history section. I also took the opportunity to contribute from time to time to the Android application itself."
         [[params.experience.list.items]]
         details = "Golang, Microservices, gRPC"
         [[params.experience.list.items]]
