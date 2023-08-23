@@ -202,7 +202,7 @@ googleAnalytics = ""
 
 
     [params.information]
-        enable = false
+        enable = true
 
         [[params.information.list]]
         title = "Interests"
