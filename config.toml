@@ -109,7 +109,7 @@ googleAnalytics = ""
 
 
     [params.interests]
-        enable = false
+        enable = true
 
         [[params.interests.list]]
         name = "Hiking"
