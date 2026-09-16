@@ -1,7 +1,7 @@
 # Page settings
 
 baseURL = "https://fanny-r.github.io/"
-languageCode = "en"
+locale = "en"
 title = "Fanny Rottée - Software Engineer"
 theme = "hugo-devresume-theme-custom"
 googleAnalytics = ""

@@ -7,10 +7,12 @@ sudo snap install hugo
 
 Build
 ```
-https://gohugo.io/installation/
+hugo build
 ```
 
 Develop and test your site 
 ```
 hugo server
 ```
+
+More in [the documentation](https://gohugo.io/getting-started/usage/)
