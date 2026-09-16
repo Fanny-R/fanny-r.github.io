@@ -1,5 +1,3 @@
-- id: awards
-  translation: Récompenses
 - id: education
   translation: Formation
 - id: experiences
@@ -10,7 +8,5 @@
   translation: Intérêts
 - id: languages
   translation: Langues
-- id: projects
-  translation: Projets
 - id: skills
   translation: Compétences
