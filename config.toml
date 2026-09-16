@@ -1,10 +1,23 @@
 # Page settings
 
 baseURL = "https://fanny-r.github.io/"
-locale = "en"
 title = "Fanny Rottée - Software Engineer"
 theme = "hugo-devresume-theme-custom"
 googleAnalytics = ""
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+
+[languages]
+    [languages.fr]
+        label = "Français"
+        locale = "fr-FR"
+        weight = 1
+
+    [languages.en]
+        label = "English"
+        locale = "en-US"
+        weight = 2
 
 
 
@@ -28,197 +41,44 @@ googleAnalytics = ""
         enable = true
         location = "Lyon (France)"
 
-        [[params.contact.list]]
+        # [[params.contact.list]]
         # icon = "fas fa-phone-square"
         # url = "tel:#"
-        # text = "+33"
+        # text = ""
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "fanny.rottee@gmail.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "#"
-        text = "https://fanny-r.github.io/"
+        # [[params.contact.list]]
+        # icon = "fas fa-globe"
+        # url = "#"
+        # text = "https://fanny-r.github.io/"
 
 
     [params.skills]
         enable = true
 
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "NodeJs, React, Typescript, Golang, PHP, Ruby"
-        [[params.skills.list.items]]
-        details = "PostgreSQL, MySQL, Elasticsearch, Redis"
-        [[params.skills.list.items]]
-        details = "gRPC, Pub/Sub, RabbitMQ"
-        [[params.skills.list.items]]
-        details = "Kubernetes, GCP, Docker, Git"
-        [[params.skills.list.items]]
-        details = "Microservices, Object-oriented design, Hexagonal architecture"
-        [[params.skills.list.items]]
-        details = "Datadog, Prometheus, Grafana"
-
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Architecture"
-        [[params.skills.list.items]]
-        details = "Agile Methodologies"
-        [[params.skills.list.items]]
-        details = "Pragmatic problem solver"
-
 
     [params.education]
         enable = true
-
-        [[params.education.list]]
-        degree = "BSc in Computer Science"
-        university = "Université Lyon 1"
-        dates = "2015 - 2017"
-        [[params.education.list]]
-        degree = "BSc in Library and Information Science - Digital Information Management"
-        university = "Université Grenoble Alpes"
-        dates = "2010-2012"
-        [[params.education.list]]
-        degree = "BSc in Economics and Management"
-        university = "Université Grenoble Alpes - Universität Leipzig (Germany)"
-        dates = "2007 - 2010"
 
 
     [params.languages]
         enable = true
 
-        [[params.languages.list]]
-        name = "French"
-        level = "Native"
-        [[params.languages.list]]
-        name = "English"
-        level = "Fluent"
-        [[params.languages.list]]
-        name = "German"
-        level = "Intermediate"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Intermediate - Self-Taught"
-
 
     [params.interests]
-        enable = false
-
-        [[params.interests.list]]
-        name = "Hiking"
-        [[params.interests.list]]
-        name = "Reading"
-        [[params.interests.list]]
-        name = "Travelling"
-        [[params.interests.list]]
-        name = "Eating"
-
+        enable = true
 
     [params.summary]
-        enable = true
-        me = "As an engineer I focus on problem solving, from producing quality, maintainable and well organized code to driving business initiatives. I am pragmatic and product centric, I care about my users and I want to make their life easier with my code."
-        what = "I want to find a team in which I would be able to share my knowledge while continuing to grow. Environmental issues are important to me and I would like to work in a company that shares this value."
+        enable = false
 
 
     [params.experience]
         enable = true
 
-        [[params.experience.list]]
-        title = "Fullstack Software Engineer"
-        dates = "2024 - 2026"
-        company = "BCM Energy"
-        location = "Lyon (France)"
-        link = "https://www.bcmenergy.fr/en/"
-        details = "BCM Energy is a company covering the entire electricity value chain, from production to the end customer. I was part of the Production team, which had a broad scope, from managing the data flows required to generate invoices to maintaining a portal for electricity producers. One key service the team developed during my time at BCM Energy was a the power-plant service, a **backend in NodeJs**, providing centralized information on the power plants within our scope, sourced from Salesforce. Initially built to meet our team's specific needs, we iterated on it until it became the source of truth on power plants for other teams. The whole IT team at BCM Energy worked with **DDD and hexagonal architecture**, which I applied diligently. BCM Energy is also a **holacratic organization**: a model that emphasizes responsibility, autonomy, and distributed decision-making. Within this structure, I proactively contributed to team process improvements and focused on delivering well-tested, maintainable code that met user needs."
-        [[params.experience.list.items]]
-        details = "NodeJs, React, Typescript, Hexagonal architecture"
-        [[params.experience.list.items]]
-        details = "Postgres, Google Cloud Platform, Kubernetes, Pub/Sub, Airflow, Datadog"
-
-        [[params.experience.list]]
-        title = "Backend Software Engineer"
-        dates = "2021 - 2024"
-        company = "Voi Technology"
-        location = "Stockholm (Sweden)"
-        link = "https://www.voi.com/"
-        details = "Voi is a multimodal micromobility provider operating across Europe. As part of the fleet management team, I was in charge of maintaining two dozen of **Golang microservices** that are the backend of the mobile applications used by fleet specialists to handle the lifecycle of the vehicles in need of maintenance. I followed Voi’s high quality standards, including unit testing, api-testing and continuous delivery. I was also involved in all the architectural discussions and decisions around the application. For example I **successfully led the design and the implementation** of the new vehicle history section, which allows mechanics to consult the history of all the maintenances that happened on a scooters. I also took the opportunity to contribute from time to time to the Android application itself."
-        [[params.experience.list.items]]
-        details = "Golang, Microservices, gRPC"
-        [[params.experience.list.items]]
-        details = "Postgres, Google Cloud Platform, Kubernetes, Pub/Sub, Prometheus, Grafana"
-
-        [[params.experience.list]]
-        title = "Software Engineer"
-        dates = "2016 - 2021"
-        company = "Vivlio"
-        location = "Lyon (France)"
-        link = "https://www.vivlio.com/en/"
-        details = "My training and previous experiences have helped me to grasp the complexity of the work as a software engineer in Vivlio, a french start-up that aims to be a European alternative in the digital book industry. I worked in a small **agile team** where I was involved in the whole development life cycle, **from design to maintenance**, including of course development, but also testing, deployment and monitoring. We were doing systematic code reviews and pair programming on a regular basis and I **supervised and mentored newcomers**. My missions involved working in conjunction with after-sales service, editorial and marketing teams to best meet the needs of the clients and customers. I also had the opportunity to take more responsibility by becoming the **technical referent** of one of the project."
-        [[params.experience.list.items]]
-        details = "PHP, Ruby, Symfony"
-        [[params.experience.list.items]]
-        details = "MySQL, Elasticsearch, RabbitMq, Docker"
-
-        [[params.experience.list]]
-        title = "Software Engineer (3 months Internship)"
-        dates = "2016"
-        company = "Robert Gordon University"
-        location = "Aberdeen (Scotland)"
-        link = "https://www.rgu.ac.uk/"
-        details = "As an intern my mission was to develop (from scratch) a prototype Android and Android wear app as part of a project that intended to develop a support system for people living with low back pain. The application collected data from sensors present on a smartwatch, sending it on a mobile phone where the data was analysed in order to predict the activity done by the user, and then the result was displayed. The most important part was to implement the activity recognition system developed by a research fellow. I worked alone and independently, however, as I was creating a prototype for other people to use, I made sure to have a clean and well documented code."
-        [[params.experience.list.items]]
-        details = "Java Android, for mobile phone and smartwatch"
-        [[params.experience.list.items]]
-        details = "Librairies: OpenCV and MPAndroidChart"
-
-        [[params.experience.list]]
-        title = "Volunteering in farms in the UK"
-        dates = "2014"
-        company = "WWOOF"
-        location = "United Kingdom"
-        link = "https://wwoof.net/"
-        details = "I traveled during 6 months in the UK helping with daily tasks in farms or gardens, and living alongside my hosts. I did a lot of gardening, but I also was lucky enough to help in a farm during lambing time. I learned to work under pressure, sometimes alone, and to take quick decisions. More generally this time out of my comfort zone has allowed me to discover a new culture and new ways of thinking."
-
-        [[params.experience.list]]
-        title = "Various short-term jobs"
-        dates = "2012 - 2015"
-        company = "Decitre, Lizeo,..."
-        location = "Lyon (France)"
-        details = "I used to work as a librarian and a data-entry operator. These jobs taught me to work rigorously, within deadlines and according to instructions. However, I lacked career prospects, and I wanted to have the opportunity to be a driving force and not just an executor. I was eager to learn more and to find a job in which I would be able to evolve."
-
-
-    [params.projects]
-        enable = false
-
-        [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
     [params.information]
-        enable = true
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Hiking, Reading, Travelling, Eating"
+        enable = false
 
 
     [params.social]

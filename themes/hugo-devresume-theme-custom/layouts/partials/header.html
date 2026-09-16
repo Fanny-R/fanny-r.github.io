@@ -3,6 +3,8 @@
 
                     <div class="row align-items-center">
 
+                        {{ partial "language-switcher.html" . }}
+
                         {{ if .Site.Params.profile.enable }}
                         {{ partial "profile.html" . }}
                         {{ end }}
