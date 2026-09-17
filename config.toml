@@ -49,10 +49,10 @@ defaultContentLanguageInSubdir = false
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "fanny.rottee@gmail.com"
-        # [[params.contact.list]]
-        # icon = "fas fa-globe"
-        # url = "#"
-        # text = "https://fanny-r.github.io/"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://fanny-r.github.io/"
 
 
     [params.skills]
