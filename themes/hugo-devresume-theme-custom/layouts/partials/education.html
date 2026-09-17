@@ -4,7 +4,7 @@
                                 <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "education" }}</h3>
 
                                 <ul class="list-unstyled resume-education-list">
-                                    {{ range .Site.Params.education.list }}
+                                    {{ range .Params.education }}
                                     <li class="mb-3">
                                         <div class="resume-degree font-weight-bold">{{ .degree }}</div>
                                         <div class="resume-degree-org text-muted">{{ .university }}</div>

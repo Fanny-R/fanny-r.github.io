@@ -1,0 +1,12 @@
+- id: education
+  translation: Formation
+- id: experiences
+  translation: Expériences professionnelles
+- id: information
+  translation: Informations
+- id: interests
+  translation: Intérêts
+- id: languages
+  translation: Langues
+- id: skills
+  translation: Compétences

@@ -1,0 +1,10 @@
+
+                        <div class="resume-lang-switcher col-12 text-right">
+                            {{ range .Page.AllTranslations.ByLanguage }}
+                            {{ if eq .Language.Lang $.Site.Language.Lang }}
+                            <span class="resume-lang-current">{{ .Language.Lang | upper }}</span>
+                            {{ else }}
+                            <a class="resume-lang-link" href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.Lang | upper }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div><!--//resume-lang-switcher-->
