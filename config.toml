@@ -70,8 +70,8 @@ defaultContentLanguageInSubdir = false
     [params.interests]
         enable = true
 
-    [params.summary]
-        enable = false
+    [params.intro]
+        enable = true
 
 
     [params.experience]
