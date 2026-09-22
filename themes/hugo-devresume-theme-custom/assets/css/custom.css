@@ -8,4 +8,25 @@
         border: none!important;;
         box-shadow: none!important;
     }
+
+    .resume-lang-switcher {
+        display: none!important;
+    }
+
+    .resume-main,
+    .resume-aside {
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        padding: 0!important;
+        border-left: 0!important;
+    }
+
+    .resume-main section,
+    .resume-aside section {
+        border-top: 1px solid rgba(0, 0, 0, 0.1)!important;
+    }
+
+    .resume-main section:first-child {
+        border-top: none!important;
+    }
 }
